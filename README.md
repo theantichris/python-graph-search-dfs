@@ -10,3 +10,5 @@ It accepts 4 parameters:
 1. current_vertex: the vertex to start the search at
 1. target_value: the value to search for
 1. visited: a list to collect the path in
+
+The graph is a map. Each vertex is a key. The key's value is the neighboring vertices.
