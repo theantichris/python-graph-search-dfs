@@ -6,4 +6,5 @@ def dfs(graph, current_vertex, target_value, visited=None):
     # Add current vertext to visited nodes
     visited.append(current_vertex)
 
-    return visited
+    if current_vertex == target_value:
+        return visited
